@@ -7,9 +7,9 @@ import java.util.regex.*;
 public class Solution {
 
     public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		String s = sc.next();
-		System.out.println(longestSubString(s));
+	Scanner sc = new Scanner(System.in);
+	String s = sc.next();
+	System.out.println(longestSubString(s));
     }
     static String longestSubString(String s){
         int sLength = s.length();
